@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckBox /> spec shows a checkmark when checked 1`] = `
+.c2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: inherit;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  color: #bbb;
+  text-align: center;
+  border: 2px solid #bbb;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 {
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: top;
+  opacity: 1;
+}
+
+.c4 {
+  display: block;
+  margin: 0;
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+<span
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    <input
+      class="c2"
+      type="checkbox"
+    />
+    <span
+      class="c3"
+    />
+  </span>
+  <label
+    class="c4"
+  >
+    this is a label
+  </label>
+</span>
+`;
+
+exports[`<CheckBox /> spec shows a checkmark when checked 2`] = `
+<span
+  class="CheckBox__Wrapper-iggjvv-4 feVCkj"
+>
+  <span
+    class="CheckBox__ClickArea-iggjvv-2 djdmne"
+  >
+    <input
+      class="CheckBox__CheckBoxDecl-iggjvv-0 CheckBox__StyledCheckBox-iggjvv-1 blKBhu"
+      type="checkbox"
+    />
+    <span
+      class="CheckBox__ClickBox-iggjvv-3 dqJzvL"
+    >
+      <img
+        src="https://img.icons8.com/metro/26/0000ff/checkmark.png"
+      />
+    </span>
+  </span>
+  <label
+    class="CheckBox__Label-iggjvv-5 eurPZR"
+  >
+    this is a label
+  </label>
+</span>
+`;

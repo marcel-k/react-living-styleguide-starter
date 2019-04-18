@@ -1,0 +1,4 @@
+/* Put styles that need to be applied to all the stories inside the stories iframe here */
+* {
+  box-sizing: border-box !important;
+}

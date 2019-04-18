@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonRotatable /> spec rotates when clicked 1`] = `
+.c0 {
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  text-align: center;
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: inherit;
+  color: inherit;
+  background-color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+.c0:active {
+  opacity: 0.5;
+}
+
+<button
+  class="c0"
+  style="transform: rotate(0deg);"
+>
+  I will rotate left
+</button>
+`;
+
+exports[`<ButtonRotatable /> spec rotates when clicked 2`] = `
+<button
+  class="Button-qd808s-0 dClZAo"
+  style="transform: rotate(90deg);"
+>
+  I will rotate left
+</button>
+`;
+
+exports[`<ButtonRotatable /> spec rotates when clicked 3`] = `
+<button
+  class="Button-qd808s-0 dClZAo"
+  style="transform: rotate(0deg);"
+>
+  I will rotate right
+</button>
+`;
+
+exports[`<ButtonRotatable /> spec rotates when clicked 4`] = `
+<button
+  class="Button-qd808s-0 dClZAo"
+  style="transform: rotate(-90deg);"
+>
+  I will rotate right
+</button>
+`;

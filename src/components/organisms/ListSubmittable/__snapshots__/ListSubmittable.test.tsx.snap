@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListSubmittable /> spec filters the list items 1`] = `
+.c6 {
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  text-align: center;
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: inherit;
+  color: #fff;
+  background-color: #0000ff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+.c6:active {
+  opacity: 0.5;
+}
+
+.c7 {
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  text-align: center;
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: inherit;
+  color: #bbb;
+  background-color: transparent;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-variant: small-caps;
+  border: 0;
+}
+
+.c7:active {
+  opacity: 0.5;
+}
+
+.c8 {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.c8 li {
+  list-style: none;
+}
+
+.c9 {
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  cursor: pointer;
+  color: inherit;
+  background-color: transparent;
+}
+
+.c9:hover {
+  background-color: #eee;
+}
+
+.c4 {
+  margin: 0;
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.c5 {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 8px;
+  font-size: 14px;
+  text-align: left;
+  color: #333;
+  border: 1px solid #bbb;
+  opacity: 1;
+  pointer-events: inherit;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 4px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 > div {
+  margin-bottom: 4px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c1 > button {
+  margin-left: 4px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <label
+          class="c4"
+        >
+          Searchable item list
+        </label>
+        <input
+          class="c5"
+          placeholder=""
+          type="text"
+          value="item 2"
+        />
+      </div>
+      <button
+        class="c6"
+      >
+        Search
+      </button>
+    </div>
+    <button
+      class="c7"
+    >
+      reset
+    </button>
+  </div>
+  <ul
+    class="c8"
+  >
+    <li
+      class="c9"
+    >
+      item 1
+    </li>
+    <li
+      class="c9"
+    >
+      item 2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<ListSubmittable /> spec filters the list items 2`] = `
+<div
+  class="ListSubmittable__Wrapper-sc-1cp02ee-0 iLCtLv"
+>
+  <div
+    class="ListSubmittable__SearchBoxWrapper-sc-1cp02ee-1 eKKfMG"
+  >
+    <div
+      class="TextBoxSubmittable__Wrapper-rmdr1o-0 jDnOGN"
+    >
+      <div
+        class="TextBoxSubmittable__TextBoxWrapper-rmdr1o-1 hbGyev"
+      >
+        <label
+          class="Label-sc-17u3nw2-0 eoSOaH"
+        >
+          Searchable item list
+        </label>
+        <input
+          class="TextBox__TextBoxDecl-ctezws-0 TextBox-ctezws-1 kwTjsu"
+          placeholder=""
+          type="text"
+          value="item 2"
+        />
+      </div>
+      <button
+        class="Button-qd808s-0 cRaRAV"
+      >
+        Search
+      </button>
+    </div>
+    <button
+      class="Button-qd808s-0 nQEmX"
+    >
+      reset
+    </button>
+  </div>
+  <ul
+    class="List__StyledList-sc-18xn1fm-0 kSCmid"
+  >
+    <li
+      class="ListItem__StyledListItem-hhotwc-0 dXmNN"
+    >
+      item 2
+    </li>
+  </ul>
+</div>
+`;
